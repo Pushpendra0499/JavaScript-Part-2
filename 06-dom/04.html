@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom | with Mukku</title>
+</head>
+<body style="background-color: #212121; color:#fff">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+
+function addLanguage(langName) {
+  const li = document.createElement('li');
+  li.innerHTML = `${langName}`;
+  document.querySelector('.language').
+  appendChild(li);
+}
+
+addLanguage("Python");
+addLanguage("TypeScript");   
+
+    function addOptiLanguage(langName){
+        const li = document.createElement('li');
+        // addText = document.createTextNode(langName)
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+
+
+    }
+    addOptiLanguage('Golang')
+
+    // edit Ex.1
+const secondLang = document.querySelector("li:nth-child(2)")
+console.log(secondLang) 
+   //secondLang.innerHTML ="Mojo"
+const newli = document.createElement('li')
+newli.textContent ="Mojo"
+secondLang.replaceWith(newli)
+
+// Ex.2
+const firstLang = document.querySelector("li:first-child")
+firstLang.outerHTML ='<li>TypeScript</li>'
+
+//remove
+const langName =document.querySelector('li:last-child')
+langName.remove()
+///Timming==> 1:50:00
+
+
+//++++++++++++++++++++++  Dome is finish ++++++++++++++++
+   
+
+</script>
+</html>
