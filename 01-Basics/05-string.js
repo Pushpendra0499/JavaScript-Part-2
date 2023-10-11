@@ -4,10 +4,10 @@ const repoCount =99;
 console.log(name+ repoCount+" value");
 
 
-console.log(`my name is ${name}. my repoCount is ${repoCount}`);
+// console.log(`my name is ${name}. my repoCount is ${repoCount}`);
 
-const gameName = new String("Pushpendra-pk is a good student in my class room");
-console.log(gameName); 
+// const gameName = new String("Pushpendra-pk is a good student in my class room");
+// console.log(gameName); 
 
 // but when we run this code in console than we find tha string is shown in perticulaor words this is like Object
 
@@ -18,18 +18,21 @@ console.log(gameName);
 // console.log(gameName.toUpperCase());
 
 
-// console.log(gameName.charAt(3))
+// console.log(gameName.charAt(3)) // print the charcter at the index of 3
 // console.log(gameName.indexOf('P'))
 // console.log(gameName.charAt(3))
 
-const newString = gameName.substring(0,4) //word of 4th index will be excluded
-console.log(newString); // we can't give negative value in substring method
+// const newString = gameName.substring(0,4) //word of 4th index will be excluded
+// console.log(newString); // we can't give negative value in substring method
 
-const anotherString =gameName.slice(0,4); // in slice method we can give negative value
-console.log(anotherString); // ty good practice
+// const anotherString =gameName.slice(0,4); // in slice method we can give negative value
+// console.log(anotherString); // try good practice
+
+// const anotherString1 =gameName.slice(1,4); // in slice method we can give negative value
+// console.log(anotherString1); // try good practice
 
 
-// const newString1 ="         Pushpendrs        ";
+// const newString1 ="         Pushpendra        "; 
 // console.log(newString1);
 // console.log(newString1.trim());
 // console.log(newString1.trimStart())
@@ -41,26 +44,28 @@ console.log(anotherString); // ty good practice
  */
 
  //                                            ++++++++++++++++ replace method+++++++++++++++
- const url ="https://pushpendra.com/pushpendra%04kumar";
- console.log(url.replace('%04kumar','99Rajput$'));
+//  const url ="https://pushpendra.com/pushpendra%04kumar";
+//  console.log(url.replace('%04kumar','99Rajput$'));
+//  // Timming 2:17:00
+//  console.log(url.includes('pushpendra')); // check presentation of string
 
- console.log(url.includes('pushpendra')); // check presentation of string
+// +++++++++++++++++++++++++++++++++++ Go to mdn and search Method of string +++++++++++++++++++++++++++++++++
 
- // convert string into array
- console.log(gameName.split('-')); // 
+//  // convert string into array
+//  console.log(gameName.split('-')); //  '-' kuch bhi ho skta hai hai 
 //  console.log(words[4]);
-//  console.log(chars[4]);
+// //  console.log(chars[4]);
 
 
 const str = 'My name is pushpendra kuamr I am a good student in my classroom';
-
+console.log(str)
 const words = str.split(' ');
 console.log(words[3]);
 // Expected output: "pushpendra"
 
 const chars = str.split('');
 console.log(chars[8]);
-// Expected output: "i"
+// // Expected output: "i"
 
 const strCopy = str.split();
 console.log(strCopy);

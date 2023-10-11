@@ -65,8 +65,9 @@ Array ,objects,Functions
 
 let myYoutubename ="mukkurajj.com";
 let anothername =myYoutubename;
+console.log(myYoutubename)
 
-anothername ="chai aur Code"
+anothername ="JavaScript with Mukku"
 console.log(anothername);
 
 let userOne={

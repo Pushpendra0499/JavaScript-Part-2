@@ -1,21 +1,21 @@
-// const score =99;
-// console.log(score);
+const score =99;
+console.log(score); // 99
 
 // const balance =new Number(100);
-// console.log(balance);
+// console.log(balance); // [Number:100]
 
-// console.log(balance.toString());
-// console.log(balance.toString().length);
+// console.log(balance.toString()); // 100
+// console.log(balance.toString().length); //3
 
 // console.log(balance.toFixed(2)); // 100.00
 //  // Timming 2:35:00
-//  //const otherNumber =23.8966; // 23.9
-//  //const otherNumber =123.8966;  //124
+    // const otherNumber =23.8966; // 23.9
+//  const otherNumber =123.8966;  //123.9
 //  const otherNumber =1123.8966; //  precision(3)   1.12e+3 very  carefull in the precision value
 //  console.log(otherNumber.toPrecision(4)); // 1124
 
 //  const hundreds =1000000;
-// //  console.log(hundreds.toLocaleString()); //1,000,000
+//  console.log(hundreds.toLocaleString()); //1,000,000
 // console.log(hundreds.toLocaleString('en-IN')); //10,00,000
 
 // ++++++++++++++++++++++++++ Min-Max ++++++++++++++++++
@@ -24,30 +24,32 @@
 try in google console
 Number.MIN_VALUE
 5e-324
-
+//////////////////////// and search the Number_Max 
 Number.MAX_VALUE
 1.7976931348623157e+308
 
 */
 
                    // *********************** maths **********************
-console.log(Math);
-console.log(Math.abs(-4)); /// 4
-console.log(Math.round(4.6)); // 5
-console.log(Math.ceil(4.2)); // 5 give a top value
-console.log(Math.floor(4.2));  // 4 lowest value 
-console.log(Math.floor(4.9));  // 4
-console.log(Math.min(4, 2,0,12.4 ,23, 100,-6));  // -6
-console.log(Math.max(4, 2,0,12.4 ,23, 100,-6));  // 100
+// console.log(Math);
+// console.log(Math.abs(-4)); /// 4
+// console.log(Math.round(4.6)); // 5
+// console.log(Math.ceil(4.2)); // 5 give a top value
+// console.log(Math.floor(4.2));  // 4 lowest value 
+// console.log(Math.floor(4.9));  // 4
+// console.log(Math.min(4, 2,0,12.4 ,23, 100,-6));  // -6
+// console.log(Math.max(4, 2,0,12.4 ,23, 100,-6));  // 100
 
-console.log(Math.random()); //  very important always 1<random value>0
-console.log((Math.random()*10) + 1);  //7.883178594591883
-console.log(Math.floor(Math.random()*10) + 1);  // 8 this line give the answer between 9 to 1
+// console.log(Math.random()); //  very important always 1<random value>0
+// console.log(Math.floor( Math.random()*10)+1)
+
+// console.log((Math.random()*10) + 1);  //7.883178594591883
+// console.log(Math.floor(Math.random()*10) + 1);  // 8 this line give the answer between 9 to 1
 
 //  /////////////////////////////////////////////////////////////////////////////
-const min = 10;
-const max = 20; 
-console.log(Math.floor(Math.random() * (max -min +1))+10) // very important 20< value >10 
+// const min = 10;
+// const max = 20; 
+// console.log(Math.floor(Math.random() * (max -min +1))+10) // very important 20< value >10 
 // 2:52:00
 
 
