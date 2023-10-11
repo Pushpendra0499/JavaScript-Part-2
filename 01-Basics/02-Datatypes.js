@@ -13,18 +13,22 @@ let name="Pushpendra kumar";
 let age =23;
 let isLoggedIn =false;
 
+
+
+///////////////////// Seven type of dataType++++++++++++++++++
+
 // number => 2 to powerr 53
-// bigint
+// bigint ==> for big number 
 //string =>""
 // boolean  => true /false
 
-// null  => standalone value 
+// null  => standalone value (object return)
 //Ex. let state =null (not a Zero)
 
 // Undefined  => abhi value asign nhi hua hai
 // Ex.  let state;
 
-// Symbol =>unique
+// Symbol =>unique(uniqness)
 
 // Object
 
