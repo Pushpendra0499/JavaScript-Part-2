@@ -103,8 +103,8 @@ console.log(gameCounter);
                       /************ Notes *************/
 /* 
 we must read pre increment and post oincrement
-1. pre-increment ==> firstly increase the value and than use the value  like ++p
-2. post-increment ==> firstly use the value and than increment the value like p++
+1. pre-increment ==> ++p firstly increase the value and than use the value  like ++p
+2. post-increment ==> p++ firstly use the value and than increment the value like p++
 */
 
 // link to study  (1:29:13) ==> 

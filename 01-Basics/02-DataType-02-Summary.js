@@ -1,6 +1,7 @@
+// Timming 1:39:00
 /* 
 //# Primitive 
-7 types are given bellow==>
+Seven types are given bellow==>
 1.String
 2.Number
 3.Boolean
@@ -15,8 +16,7 @@ JavaScript is dynamically typed language
 for a goood JavaScript  Developer do mastering in objects and browser Events
 
 
-// # Reference Type (Non primitive)
-
+//+++++++++++++++++++++++++++ # Reference Type (Non primitive)
 Array ,objects,Functions
 
 */
