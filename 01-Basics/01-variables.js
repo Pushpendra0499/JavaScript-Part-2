@@ -44,6 +44,7 @@
 // accountCity,accountState])
 
 
+
 console.log("Pushpendra Kumar")
 const acccountId =12332;
 var accountEmail ="Mukkuraj121212";
@@ -54,7 +55,7 @@ const accountId =8776;
 var accountEmail ="mukku76536535";
 accountPassword="34349kumar";
 // acocuntState =''; // ''
-accountState ="radhe"
+accountState ="UP"
 
 
 console.table([acccountId,accountEmail,accountPassword,accountState])

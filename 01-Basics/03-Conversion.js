@@ -1,5 +1,5 @@
-// let score ="33qwef"; //  result is number but this is not a number
-//let score =null; /// output comming is "0"
+let score ="33qwef"; //  result is number but this is not a number
+// let score =null; /// output comming is "0"
 // let score= undefined;  // **** Output is NaN not a number
 
 // let score =true; // result is 1
@@ -14,7 +14,7 @@
 3.true => 1; false => 0;
 
 */
-
+// console.log(score)
 // console.log(typeof score);
 // console.log(typeof(result));
 // console.log(score);
@@ -28,7 +28,7 @@
 // let isLoggedIn =""; //  result show false
 // let isLoggedIn ="hello"; // result show true
 
-
+// console.log(isLoggedIn)
 
 // let booleanIsLoogedIn =Boolean(isLoggedIn)
 // console.log(booleanIsLoogedIn);
@@ -46,9 +46,9 @@
 
 
 // *************** Operations ***********************//
-let value =3;
-let negValue=-value
-//console.log(negValue);
+// let value =3;
+// let negValue=-value
+// console.log(negValue);
 
 // console.log(2+2);
 // console.log(2-2);
@@ -59,11 +59,11 @@ let negValue=-value
 // console.log(2%3); //  this is very important
 
  // ************** Adding the string *********************///
-// let str1 ="hello "
-// let str2 ="Pushpendra"
+let str1 ="hello "
+let str2 ="Pushpendra"
 
-// let  str3= str1+ str2;
-// console.log(str3);
+let  str3= str1+ str2;
+console.log(str3);
 
 //////////// complex situation ////////////  
 //   got to tc39.cs for To perimives ////
@@ -81,11 +81,11 @@ let negValue=-value
 // console.log((20+3) / (5*2)); //  good prctice
 
 
-console.log(true);
+// console.log(true);
 
-//console.log(+"") // 0 in the Output
+console.log(+"") // 0 in the Output
 
-// console.log(+true); // do not try this 
+console.log(+true); // do not try this 
 
 // console.log(true+); // show  an error in the output 
 
