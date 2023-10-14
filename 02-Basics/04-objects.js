@@ -9,16 +9,16 @@ tinderUser.isLoggedIn =false
 
 // console.log(tinderUser);
 
-const regularuser ={
-    email:"some@gmail.com",
-    fullName:{
-        userfullName:{
-            firstName: "pushpendra",
-            lastName: "Kumar"
-        }
-    }
-}
-// console.log(regularuser.fullName.userfullName.firstName);
+// const regularuser ={
+//     email:"some@gmail.com",
+//     fullName:{
+//         userfullName:{
+//             firstName: "pushpendra",
+//             lastName: "Kumar"
+//         }
+//     }
+// }
+// console.log(regularuser.fullName.userfullName.lastName);
 
 const obj1 = {1:"a",2: "b"}
 const obj2 = {3:"c",2: "d"}
@@ -38,8 +38,8 @@ const obj4 = {5:"a", 6:"f"}
 
 // const obj3 = Object.assign({}, obj1,obj2,obj4)
 
-const obj3 ={...obj1,...obj2,...obj4}
-console.log(obj3);
+// const obj3 ={...obj1,...obj2,...obj4}
+// console.log(obj3);
 
 /////// when value databse se aati hai to below code likhte han
 
@@ -63,8 +63,10 @@ const users = [
 
 ]
 
+
 users[1].email
-console.log(tinderUser); //{ Id: '12344', name: 'sammy', isLoggedIn: false }
+
+// console.log(tinderUser); //{ Id: '12344', name: 'sammy', isLoggedIn: false }
 
 console.log(Object.keys(tinderUser)); //[ 'Id', 'name', 'isLoggedIn' ] here we find the key of object(tinderUser)
 console.log(Object.values(tinderUser));  //[ '12344', 'sammy', false ]

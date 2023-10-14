@@ -1,4 +1,4 @@
-//4:36:00
+// 4:36:00
 // console.log("H");
 // console.log("I")
 // console.log("T")
@@ -21,16 +21,16 @@
 
 
 
-// function addTwoNumbers(num1,num2){
-//     console.log(num1 + num2 );
-// }
+function addTwoNumbers(num1,num2){
+    console.log(num1 + num2 );
+}
 
 
-// addTwoNumbers()  //NaN
+addTwoNumbers()  //NaN
 // addTwoNumbers(2,"4") //24
 addTwoNumbers(3,4) //7
 // addTwoNumbers(2,a) //a is not defined(Error)
-// addTwoNumbers(2,null) //2
+addTwoNumbers(2,null) //2
 
 // addTwoNumbers(2,"a")  // 2a
 // addTwoNumbers("a","b") //ab
@@ -73,7 +73,7 @@ function calculateCarPrice(val1, val2, ...num1){
 return num1
 }
 
-console.log(calculateCarPrice(220,400,500,1000)); // [ 220, 400, 500 ,1000 ]
+console.log(calculateCarPrice(220,400,500,1000));  //[ 220, 400, 500 ,1000 ]
 
 const user ={
     username:"pushpenra",
@@ -85,9 +85,9 @@ function handleObject(anyobject){
 // but pproblem is comming if we use of prices in place oof price
 }
 
-// handleObject(user) //Username is pushpenra and price is 199
+ handleObject(user) //Username is pushpenra and price is 199
 
-// good method
+// // good method
 
 handleObject({
     username:"Pushpa",
@@ -101,7 +101,7 @@ function returnSecondValue(getArray){
 }
 
 
-// console.log(returnSecondValue(myNewArray)); //600
+console.log(returnSecondValue(myNewArray)); //600
 console.log(returnSecondValue([200,400,500,1000])); // result will we get 1000
 
 

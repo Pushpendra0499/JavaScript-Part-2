@@ -8,7 +8,7 @@
 // const Object ={}  // this is represntation of object
 
 const mySym =Symbol("key1")
-
+console.log(mySym)
 
 const jsUser ={
     name :'Pushpendra Kumar',
@@ -24,10 +24,12 @@ const jsUser ={
 
 // console.log(jsUser);
 // console.log(jsUser.email); //  this is not right method to aacces the element of object
+
 // console.log(jsUser["email"]) // this is good way to acces
-// console.log(jsUser["full name"]);
-// //  console.log(jsUser.mySym); //mykey1
-// // console.log(typeof jsUser.mySym); // string
+// console.log(jsUser["full name"]); //
+
+// console.log(jsUser.mySym); //mykey1
+// console.log(typeof jsUser.mySym); // string
 // console.log(jsUser[mySym]); // mykey1   right way
 
 
@@ -47,11 +49,14 @@ jsUser.greeting2 =function(){
 }
 
 
-// if you can freeze the  object then firstly comment the freeze line than run code otherwise you find eror
+// if you can freeze the  object then firstly comment the freeze line 
+//than run code otherwise you find eror
 
-// console.log(jsUser.greeting); // [Function (anonymous)]
+console.log(jsUser.greeting); // [Function (anonymous)]
 console.log(jsUser.greeting()); // hello JS USer
 console.log(jsUser.greeting2()); //hello JS User ,Pushpendra Kumar
+
+
 
 
 

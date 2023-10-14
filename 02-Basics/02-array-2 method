@@ -1,4 +1,4 @@
-
+/* 
 at: ƒ at()
 concat: ƒ concat()
 constructor: ƒ Array()
@@ -86,3 +86,5 @@ with
 Symbol(Symbol.iterator)
 : 
 ƒ values()
+
+*/

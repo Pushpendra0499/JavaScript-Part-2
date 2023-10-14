@@ -10,7 +10,12 @@ console.log(score); // 99
 // console.log(balance.toFixed(2)); // 100.00
 //  // Timming 2:35:00
     // const otherNumber =23.8966; // 23.9
+    // console.log(otherNumber.toPrecision(3))
+
 //  const otherNumber =123.8966;  //123.9
+// console.log(otherNumber.toPrecision(4))
+
+
 //  const otherNumber =1123.8966; //  precision(3)   1.12e+3 very  carefull in the precision value
 //  console.log(otherNumber.toPrecision(4)); // 1124
 
@@ -34,6 +39,7 @@ Number.MAX_VALUE
 // console.log(Math);
 // console.log(Math.abs(-4)); /// 4
 // console.log(Math.round(4.6)); // 5
+// console.log(Math.round(4.2)) //4
 // console.log(Math.ceil(4.2)); // 5 give a top value
 // console.log(Math.floor(4.2));  // 4 lowest value 
 // console.log(Math.floor(4.9));  // 4
@@ -47,11 +53,15 @@ Number.MAX_VALUE
 // console.log(Math.floor(Math.random()*10) + 1);  // 8 this line give the answer between 9 to 1
 
 //  /////////////////////////////////////////////////////////////////////////////
-// const min = 10;
-// const max = 20; 
-// console.log(Math.floor(Math.random() * (max -min +1))+10) // very important 20< value >10 
+const min = 10;
+const max = 20; 
+console.log(Math.floor(Math.random() * (max -min +1))+10) // very important 20< value >10 
 // 2:52:00
 
+
+const min1 =100;
+const max2 =300;
+console.log(Math.floor(Math.random()* (max2-min1+1))+10) ///
 
 /*  
 E

@@ -12,21 +12,21 @@
 //  }
 // */
 
-// if(true){
-//     let a=10;
-//     const b=20;
-//     // var c =30; 
-//     c=30 // we can write in this way without var
+if(true){
+    let a=10;
+    const b=20;
+    var c =30; 
+    // c=30 // we can write in this way without var
 
 
-//     console.log("Inner value of a :(in block scope)",a)
-//     console.log("Inner value of b :(in block scope)",b)
-// }
+    console.log("Inner value of a :(in block scope)",a)
+    console.log("Inner value of b :(in block scope)",b)
+}
 
 
-// // console.log(a)
-// // console.log(b)
-// // console.log(c)
+// console.log(a)
+// console.log(b)
+console.log(c)
 
 
 // for (let i =0; i < array.length; i++) {
@@ -56,18 +56,18 @@ function one(){
 
     two()
 }
-// one() //pushpendra result of one
+ one() //pushpendra result of one
 
 if(true){
     const username ="pushpendra"
     if(username=== "pushpendra"){
         const website =" youtube"
-        // console.log(username+website) // pushpendra youtube
+        console.log(username+website) // pushpendra youtube
     }
 
-    // console.log(website);
+    // console.log(website); // this is wrong way
 }
-// console.log(username);
+// console.log(username);  // this is also wrong here
 
 
 // ++++++++++++++++++++++++++ Very important Example ++++++++++++++++++++++

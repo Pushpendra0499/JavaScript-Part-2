@@ -1,9 +1,10 @@
 // if
 
 // const isUserloggedIn =true
+///////////////////
 // const temperature =41;
 
-// if (temperature===4) {
+// if (temperature===41) {
 //     console.log("less then 50");
 // }else{
 //     console.log("temperature is greater than 50");
@@ -27,9 +28,8 @@
 
 // // +++++++++++++++++++++++++++++++
 // const balance =1000;
-
-// if(balance>500) console.log("test"), // implicit scope man lia hai
-// console.log("test2"); /// very bad way to write do not aqain ths practice
+// if(balance>500) console.log("test")// implicit scope man lia hai
+// console.log("test2"); /// very bad way to write do not again ths practice
 
 
 // const balance=1000;
@@ -51,9 +51,9 @@ const userloggedIn =true
 const debitCard =true
 const loggedInFromGoogle =false
 const loggedInFromEmail =true
-if(userloggedIn && debitCard && 2==2){ //////////// all conditin should be true
-    console.log("Allow to bue course");
-}
+// if(userloggedIn && debitCard && 2==2){ //////////// all conditin should be true
+//     console.log("Allow to buy course");
+// }
 
 if(loggedInFromGoogle || loggedInFromEmail){
     console.log("User logged in")

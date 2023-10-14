@@ -18,5 +18,6 @@ console.log(instructor); // Pushpendra
 //     "courcename":"js in hindi",
 //     "price": "free"
 // }
+
 // ++++++++++++++++++++++ JSON Data by API Call ++++++++++++++++
 
