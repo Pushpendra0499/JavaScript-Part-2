@@ -7,51 +7,47 @@
     <title>Dom | with Mukku</title>
 </head>
 <body style="background-color: #212121; color:#fff">
-    <ul class="language">
+    <ol class="language">
         <li>JavaScript</li>
-    </ul>
+    </ol>
 </body>
 <script>
+    // here we add append child in the last of tree, there can roblem if tree will be long
 
-function addLanguage(langName) {
-  const li = document.createElement('li');
-  li.innerHTML = `${langName}`;
-  document.querySelector('.language').
-  appendChild(li);
+  function addLanguage(langName) {
+    const li = document.createElement('li');
+    li.innerHTML = `${langName}`;
+    document.querySelector('.language').appendChild(li);
 }
+addLanguage("python");
+addLanguage("TypeScript");
+addLanguage("React.JS");
 
-addLanguage("Python");
-addLanguage("TypeScript");   
+// we can optimmum solution of given method bellow
+function addOptiLanguage(langName){
+   const li = document.createElement('li');
+   li.appendChild(document.createTextNode(langName))
+   document.querySelector('.language').appendChild(li)
+}
+addOptiLanguage('Golang')
+addOptiLanguage('MongoDB') 
 
-    function addOptiLanguage(langName){
-        const li = document.createElement('li');
-        // addText = document.createTextNode(langName)
-        li.appendChild(document.createTextNode(langName))
-        document.querySelector('.language').appendChild(li)
 
+// Edit  Ex.1
+const secondLang =document.querySelector("li:nth-child(2)")
+console.log(secondLang) //  just for check 
+//  secondLang.innerHTML ='Mojo'; // this is not optimise solution
+const newLi =document.createElement('li')
+newLi.textContent ="Mukku"
+secondLang.replaceWith(newLi)
 
-    }
-    addOptiLanguage('Golang')
-
-    // edit Ex.1
-const secondLang = document.querySelector("li:nth-child(2)")
-console.log(secondLang) 
-   //secondLang.innerHTML ="Mojo"
-const newli = document.createElement('li')
-newli.textContent ="Mojo"
-secondLang.replaceWith(newli)
-
-// Ex.2
-const firstLang = document.querySelector("li:first-child")
-firstLang.outerHTML ='<li>TypeScript1</li>'
+// Edit Ex.2
+const firstLang =document.querySelector("li:first-child")
+firstLang.outerHTML = '<li>TypeScript-Mukku</li>'
 
 //remove
-const langName =document.querySelector('li:last-child')
-langName.remove()
-///Timming==> 1:50:00
+const lastlang =document.querySelector('li:last-child')
+lastlang.remove() // remove mongoDB
 
-//++++++++++++++++++++++  Dom is finish ++++++++++++++++
-   
+//+++++++++++++++++++++ DOM Finish ++++++++++++++++
 
-</script>
-</html>
