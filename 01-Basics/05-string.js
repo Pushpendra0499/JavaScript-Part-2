@@ -1,41 +1,50 @@
-
+// 2:06:00 
 // const name = "Pushpendra ";
 // const repoCount =99;
-
 // console.log(name+ repoCount+" value");
 
+const myName ="Pushpa Bhai ";
+const  repocount =99;
+// console.log(myName+repocount)// this is old method
 
-// console.log(`my name is ${name}. my repoCount is ${repoCount}`);
+// console.log(`My name is ${myName} and my repoCount is ${repocount}`)
 
-const gameName = new String("Pushpendra-pk is a good student in my class");
-// console.log(gameName); 
+const gameName1 = new String("pushpendra is a good student in his class")
+// console.log(gameName1); 
+// 2:10:00
+// const number1 =Number(myName)
+// console.log(number1) // NaN
+// console.log(typeof number1)// type -> number 
+
+
 
 // but when we run this code in console than we find tha string is shown in perticulaor words this is like Object
 
-// console.log(gameName[12]);
-// console.log(gameName.__proto__)
+// console.log(gameName1[8]);
+// console.log(gameName1.__proto__) //{} // ye dekhne me empty hai google console me sari value aati hain
+// length ,touppercase , charat,subString,slice etc ye sbbhi prorto ke function hain 
 
-// console.log(gameName.length);
-// console.log(gameName.toUpperCase());
+// console.log(gameName1.length)
+// console.log(gameName1.toUpperCase());
+
+// console.log(gameName1.charAt(3))//h // print the character at index of 3
+// console.log(gameName1.indexOf('s'))//2
 
 
-// console.log(gameName.charAt(3)) // print the charcter at the index of 3
-// console.log(gameName.indexOf('m'))
-// console.log(gameName.charAt(3))
-
-// const newString = gameName.substring(0,4) //word of 4th index will be excluded
+// const newString = gameName1.substring(0,4) //word of 4th index will be excluded
 // console.log(newString); // we can't give negative value in substring method
 
-// const anotherString =gameName.slice(4,-12); // in slice method we can give negative value
+// const anotherString =gameName1.slice(0,-8); // in slice method we can give negative value
 // console.log(anotherString); // try good practice //pendra-pk is a good student
 
 
-// const anotherString1 =gameName.slice(1,4); // in slice method we can give negative value
+// const anotherString1 =gameName1.slice(1,4); // in slice method we can give negative value
 // console.log(anotherString1); // try good practice
 
+//+++++++++++++ Go to google console and study the string function+++++++++++++++
 
-// const newString1 ="         Pushpendra        "; 
-// console.log(newString1);
+const newString1 ="         Pushpendra        "; 
+console.log(newString1);
 // console.log(newString1.trim());
 // console.log(newString1.trimStart())
 // console.log(newString1.trimEnd())
@@ -46,14 +55,15 @@ const gameName = new String("Pushpendra-pk is a good student in my class");
  */
 
  //                                            ++++++++++++++++ replace method+++++++++++++++
- const url ="https://pushpendra.com/pushpendra%04kumar";
- console.log("original string :---",url)
-//  console.log(url.replace('%04kumar','99Rajput$'));
+//  const url ="https://pushpendra.com/pushpendra%04kumar";
+//  console.log("original string :---",url)
+//  console.log("replaced string :-",url.replace('%04kumar','99Rajput$'));
 
-//  const str1= "kaise ho bhaia aao kabhi haveli par"
-//  console.log("original string :---",str1)
+ const str1= "kaise ho bhaia aao kabhi haveli par"
+ console.log("original string :---",str1)
  
 //  const str2 =str1.replace('haveli par','radhe')
+//  console.log("Original string :--",str2)
 // console.log(str2.replace('radhe','Mukku'))
 
 // console.log(str2.includes('radhe'))
@@ -63,7 +73,7 @@ const gameName = new String("Pushpendra-pk is a good student in my class");
 // +++++++++++++++++++++++++++++++++++ Go to mdn and search Method of string +++++++++++++++++++++++++++++++++
 
 //  // convert string into array
-//  console.log(gameName.split('-')); //  '-' kuch bhi ho skta hai hai
+ console.log(gameName1.split('-')); //  '-' kuch bhi ho skta hai hai
   // agar '' string console kkraye to perticular words sepprates ho jayenge 
 //   const gameName = new String("Pushpendra-pk is a good student in my class");
 
