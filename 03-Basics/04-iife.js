@@ -1,14 +1,15 @@
 // IIFE (Immediately Invoked Function Expressions)
 
 
-function chai(){
-    console.log('DB CONNECTED')
-}()   // this will not run
+// function chai(){
+//     console.log('DB CONNECTED')
+// }()   // this will not run
 
 
 (function chai(){
+    //named IIFE
     console.log(`DB CONNECTED`);
-})()  // DB CONNECTED
+})();  // DB CONNECTED
 
     // to remove pollution of global scope of presented varibles
 
@@ -18,12 +19,11 @@ function chai(){
 
 // ( () => {
 //     console.log("DB Connected two");
-//   })();
-// //  +++++++++++++++++++++++++++Doubtfull lecture
+//   })(); // use always semicolan  when two IIFE write together
 
-// ( (name) => {
-//     console.log("DB Connected two");
-//   })('pushpendra');
+( (name) => {
+    console.log(`DB Connected two ${name}`);
+  })('pushpendra')
 
 // name iife ???????
 // Timming 5:55:00

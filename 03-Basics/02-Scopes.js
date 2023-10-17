@@ -26,7 +26,7 @@ if(true){
 
 // console.log(a)
 // console.log(b)
-console.log(c)
+// console.log(c)
 
 
 // for (let i =0; i < array.length; i++) {
@@ -42,31 +42,27 @@ console.log(c)
 
 
 /*  +++++++++++++++++++ Nested Scope +++++++++++++++++ */
-function one(){
-    const username = "pushpendra"
+// function one(){
+//     const username = "pushpendra"
 
+//     function two(){
+//         const website ="youtube"
+//         console.log(username);
+//     }
+//     // console.log(website)
+//     two()
+// }
+//  one() //pushpendra result of one
 
-    function two(){
-        const website ="youtube"
-        console.log(username);
-    }
+// if(true){
+//     const username ="pushpendra"
+//     if(username=== "pushpendra"){
+//         const website =" youtube"
+//         console.log(username+website) // pushpendra youtube
+//     }
 
-
-    // console.log(website)
-
-    two()
-}
- one() //pushpendra result of one
-
-if(true){
-    const username ="pushpendra"
-    if(username=== "pushpendra"){
-        const website =" youtube"
-        console.log(username+website) // pushpendra youtube
-    }
-
-    // console.log(website); // this is wrong way
-}
+//     // console.log(website); // this is wrong way
+// }
 // console.log(username);  // this is also wrong here
 
 
@@ -81,6 +77,7 @@ addTwo(5)
 const addTwo = function(num){
     return num + 2
 }
+
 
 /*    ++++++++ Doubt full last code with some argument +++++++ */
 // Timming 5:29:00
