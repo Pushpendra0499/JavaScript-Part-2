@@ -14,7 +14,10 @@
 
   document.getElementById('images').addEventListener('click',function(e){
    console.log("clicked inside the ul");
-},false) // false ==> this is event bubbling 
+},false)
+
+
+// false ==> this is event bubbling 
                  // true==> capturing mode
 
   document.getElementById('owl').addEventListener('click',function(e){
