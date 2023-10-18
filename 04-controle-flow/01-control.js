@@ -21,16 +21,13 @@ let power ="fly2"
 
  console.log(`User power :${power}`);
 }
+
 // console.log(`User power :${power}`); // with const this line will not be print due to scope problem
-
-
-
 
 // // +++++++++++++++++++++++++++++++
 // const balance =1000;
 // if(balance>500) console.log("test")// implicit scope man lia hai
 // console.log("test2"); /// very bad way to write do not again ths practice
-
 
 // const balance=1000;
 // if(balance < 500){
@@ -45,7 +42,6 @@ let power ="fly2"
 // else{
 //     console.log("less than 1200")
 // }
-
 
 // const userloggedIn =true 
 // const debitCard =true
