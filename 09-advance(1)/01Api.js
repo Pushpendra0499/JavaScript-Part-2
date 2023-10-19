@@ -7,11 +7,12 @@
     xhr.onreadystatechange = function(){
              console.log(xhr.readyState);
              if (xhr.readyState===4) {
-                console.log(this.responseText);
+                const data = JSON.parse(this.responseText)
+                console.log(typeof data) ;
+                console.log(data.followers);   
              }
-
+                    // make a card with image and followers numbers this is HW
     } 
-
        xhr.send();
     //    console.log(xhr.readyState);
   
