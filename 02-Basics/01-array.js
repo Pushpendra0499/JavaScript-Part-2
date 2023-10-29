@@ -9,54 +9,46 @@
 
 /// go to mdn for Array for reading
 
+
 const myArr =[0,1,2,3,4,5];
-console.log(myArr); 
-// timming 3:15:00
-
-// const myHeros =['Krishna','Mahaveer','Ganpati Bappa','Nagraj']
-// console.log(myHeros[2]);
-
-// const myArr1 =new Array(1,2,3,4,5,6) // we can print the array in this way
-// console.log(myArr1); //[ 1, 2, 3, 4, 5, 6 ] 
-
-// but when we run  array in google console then we find a prototyp
-
-///           +++++++++++ Array methods +++++++++++
-
-// myArr.push(6);
+console.log(myArr);
+myArr[1]='shri ji';
 // console.log(myArr)
+// console.log(myArr.length)
+// console.log(typeof myArr)
 
-// myArr.push(7);
-// console.log(myArr)// one item add from end side of array
+const MyHeros = ['Krishna','Bhola Baba','Ganpati Bappa','Nagraj'];
+// console.log(MyHeros);
+// console.log(MyHeros)
+// console.log(MyHeros.length)
+// console.log(typeof MyHeros)
 
-// myArr.pop();
-// console.log(myArr) // one item delete from end side
+// +++++++++++++  Array Mrthod (push,pop,unshift,shift) ++++++++++++
+// MyHeros.push('Mukku')
+// console.log(MyHeros);// one item add from end side of array
 
-// myArr.unshift(0)  // 0 add in starting in array
-// myArr.unshift(9) // add 9 add in starting in array
+// MyHeros.pop();
+// console.log(MyHeros) // one item delete from end side
 
-// unshift method is not good for more(big aaray) elements Array
+// MyHeros.unshift('Radha rani');
+// console.log(MyHeros); //0 add in starting in array
 
-// myArr.shift() 
-// console.log(myArr);// remove the starting element from the array
+// MyHeros.shift()
+// console.log(MyHeros) //  remove the starting element from the array
 
-// console.log(myArr.includes(9)) //  result false if element is not present in array
-// console.log(myArr.indexOf(0))  // 0
-// console.log(myArr.indexOf(3))  // 3
+///+++++++++++++++ Includes Method +++++++++++++++++++++
 
-const newArr =myArr.join();
+// console.log(MyHeros.includes("Krishna")) // true
+// console.log(MyHeros.indexOf('Bhola Baba'))  // 1
+//++++++++++++ Join () +++++++++++++++
+// const newArr =MyHeros.join()
+// console.log(typeof newArr) // string
 
-// console.log(newArr); // 0,1,2,3,4,5,6  this is not array
-// console.log(typeof newArr);  // o/p => string here change th type of array 
+//++++++++++++++++++++ slice and splice ++++++++++++
+// console.log(MyHeros.slice(0,2)) //[ 'Krishna', 'Bhola Baba' ]
+// console.log("A",MyHeros) //A [ 'Krishna', 'Bhola Baba', 'Ganpati Bappa', 'Nagraj' ]
 
- ////////////////////// slice and splice //////////////
- console.log("A ",myArr); // o/p below A  [ 0, 1, 2, 3, 4, 5 ]
+// console.log(MyHeros.splice(0,3)) //[ 'Krishna', 'Bhola Baba', 'Ganpati Bappa' ]
+// console.log('B',MyHeros)
 
-const myn1 =myArr.slice(1,3) //3rd number is excluded
-console.log(myn1); // [1,2]
-console.log("B",myArr); // B [ 0, 1, 2, 3, 4, 5 ]
-
-const myn2 =myArr.splice(1,3) /////// manuplate the original array 
-console.log("C",myArr);8
-console.log(myn2)  //[ 1, 2, 3 ] result
 

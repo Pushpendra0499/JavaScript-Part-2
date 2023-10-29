@@ -35,6 +35,6 @@ let isLoggedIn =false;
 console.log(typeof age);
 
 console.log(typeof null); // Object
-console.log(typeof undefined); // Undefined
+console.log(typeof undefined); // Undefined 
 
 // Assignement viste the site of => tc39.cs

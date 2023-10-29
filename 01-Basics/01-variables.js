@@ -1,18 +1,21 @@
 // console.log("Pushpendra Kumar")
 // // Timming 32:40:00
-// const accountId =144553; 
+const accountId =144553; 
 
 
-// let accountEmail="mukkuverma.com"
-// var accountPassword ="12345"
-// accountCity ="Jaipur"    // do not declare like as without variables
+let accountEmail="mukkuverma.com"
+var accountPassword ="12345"
+accountCity ="Jaipur"    // do not declare like as without variables
 
 // let accountState;  //// show in result is Undefined
-// // let accountState="";
+let accountState="";
 
+console.table([accountId,accountEmail,accountPassword,
+accountCity,accountState])
+ 
 // /* +++++++++++++++++++++ notes ++++++++++++++++++
 // 1. var variables can be updated and re-declared within its scope; 
-// 2. let variables can be updated but not re-declared;
+// 2. let variable can be updated but not re-declared;
 // 3.  const variables can neither be updated nor re-declared
 
 
@@ -34,9 +37,9 @@
  
 // //accountId=2     ************ not allowed
 
-// accountEmail="puspa.com"
-// accountPassword="121212"
-// accountCity ="Bangaluru"
+accountEmail="puspa.com"
+var accountPassword="121212"
+accountCity ="Bangaluru"
 
 
 
@@ -45,17 +48,16 @@
 
 
 
-console.log("Pushpendra Kumar")
-const acccountId =12332;
-var accountEmail ="Mukkuraj121212";
-let accountPassword ="Kumar";
+// console.log("Pushpendra Kumar")
+// const acccountId =12332;
+// var accountEmail ="Mukkuraj121212";
+// let accountPassword ="Kumar";
 
 
-const accountId =8776;
-var accountEmail ="mukku76536535";
-accountPassword="34349kumar";
-// acocuntState =''; // ''
-accountState ="UP"
+// const accountId =8776;
+// var accountEmail ="mukku76536535";
+// accountPassword="34349kumar";
+// // acocuntState =''; // ''
+// accountState ="UP"
 
-
-console.table([acccountId,accountEmail,accountPassword,accountState])
+// console.table([acccountId,accountEmail,accountPassword,accountState])
