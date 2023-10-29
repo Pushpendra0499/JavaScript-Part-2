@@ -9,7 +9,6 @@
 
 /// go to mdn for Array for reading
 
-
 const myArr =[0,1,2,3,4,5];
 console.log(myArr);
 myArr[1]='shri ji';
