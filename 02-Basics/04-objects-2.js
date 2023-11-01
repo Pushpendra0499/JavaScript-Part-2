@@ -1,12 +1,12 @@
  // Timming 4:22:00
-const cource = {
-    courcename : "js in hindi",
+const course = {
+    coursename : "js in hindi",
     price:"999",
-    courceInstructor: "Pushpendra"
+    courseInstructor: "Pushpendra"
 }
-// cource.courceInstructor
-const {courceInstructor :instructor} = cource // destructure the object
-// console.log(courceInstructor); // Pushpendra
+// course.courseInstructor
+const {courseInstructor :instructor} = course // destructure the object
+// console.log(courseInstructor); // Pushpendra
 console.log(instructor); // Pushpendra
 
 // const navbar = ((coompany)) =>{
@@ -15,7 +15,7 @@ console.log(instructor); // Pushpendra
 
 // {
 //     "name":"pushpendra",
-//     "courcename":"js in hindi",
+//     "coursename":"js in hindi",
 //     "price": "free"
 // }
 
